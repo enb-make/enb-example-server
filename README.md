@@ -1,4 +1,4 @@
-enb-example-server
+enb-example-server [![Build Status](https://travis-ci.org/enb-make/enb-example-server.png?branch=master)](https://travis-ci.org/enb-make/enb-example-server)
 ==================
 
 Простой веб-сервер для просмотра верстки [bt-блоков][bt] на лету. Этот инструмент не является самостоятельным и предназначен для использования внутри проектов с bt-шаблонизатором.
