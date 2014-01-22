@@ -20,8 +20,6 @@
     "validateQuoteMarks": "'",
     "disallowMultipleVarDecl": true,
     "excludeFiles": [
-        "node_modules",
-        "tools",
-        "test/fixtures"
+        "node_modules"
     ]
 }

@@ -1,30 +1,40 @@
 {
-  "name": "enb-example-server",
-  "version": "0.0.1",
-  "dependencies": {
-    "express": "~3.4.8",
-    "commander": "~2.1.0"
-  },
-  "devDependencies": {
-    "jshint": "~2.4.1",
-    "jscs": "~1.2.3"
-  },
-  "peerDependencies": {
-    "enb": ">=0.8.45"
-  },
-  "scripts": {
-    "test": "npm run-script jshint && npm run-script check-style",
-    "jshint": "jshint .",
-    "check-style": "jscs lib bin"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/enb-make/enb-example-server.git"
-  },
-  "author": "Marat Dulin",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/enb-make/enb-example-server/issues"
-  },
-  "homepage": "https://github.com/enb-make/enb-example-server"
+    "name": "enb-example-server",
+    "version": "0.0.1",
+    "author": "Marat Dulin <mdevils@yandex.ru>",
+    "description": "Simple bt-blocks example server",
+    "contributors": [
+        {
+            "name": "Benjamin Tambourine",
+            "email": "vtambourine@ya.ru"
+        }
+    ],
+    "license": "MIT",
+    "dependencies": {
+        "commander": "~2.1.0",
+        "express": "~3.4.8"
+    },
+    "devDependencies": {
+        "jscs": "~1.2.3",
+        "jshint": "~2.4.1"
+    },
+    "peerDependencies": {
+        "enb": ">=0.8.45"
+    },
+    "scripts": {
+        "check-style": "jscs lib bin",
+        "jshint": "jshint .",
+        "test": "npm run-script jshint && npm run-script check-style"
+    },
+    "bin": {
+        "enb-example-server": "./bin/enb-example-server"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/enb-make/enb-example-server.git"
+    },
+    "bugs": {
+        "url": "https://github.com/enb-make/enb-example-server/issues"
+    },
+    "homepage": "https://github.com/enb-make/enb-example-server"
 }
