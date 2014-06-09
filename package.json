@@ -1,6 +1,6 @@
 {
   "name": "enb-example-server",
-  "version": "0.0.2",
+  "version": "0.1.2",
   "author": "Marat Dulin <mdevils@yandex.ru>",
   "description": "Simple bt-blocks example server",
   "contributors": [
